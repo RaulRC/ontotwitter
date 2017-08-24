@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasCoordinates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasCoordinates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coordinates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasHashtag -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasHashtag">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Hashtag"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUser -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUser">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasCreationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasCreationDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasFavoriteCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasFavoriteCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasFollowersCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasFollowersCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasHashtagValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasHashtagValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Hashtag"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasLang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasLang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasLatitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasLatitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coordinates"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasLongitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasLongitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coordinates"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasRetweetCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasRetweetCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasText">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasTextSource -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasTextSource">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasTimeStampMs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasTimeStampMs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasTimeZone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasTimeZone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUserCreationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUserCreationDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUserFavoriteCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUserFavoriteCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUserId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUserId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUserLang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#hasUserLang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#isTruncated -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#isTruncated">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#isVerified -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#isVerified">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coordinates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coordinates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Hashtag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Hashtag">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coord1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coord1">
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.05701649</hasLatitude>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-75.14310264</hasLongitude>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Hash1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Hash1">
+        <hasHashtagValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">#TestHashtag</hasHashtagValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet1">
+        <hasCoordinates rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coord1"/>
+        <hasUser rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User1"/>
+        <hasId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">819797</hasId>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User1">
+        <hasUserId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">819797</hasUserId>
+        <isVerified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isVerified>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Coordinates"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Hashtag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#Tweet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/untitled-ontology-2#User"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
