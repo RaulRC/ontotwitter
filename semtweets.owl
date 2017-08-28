@@ -173,7 +173,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/semtweet#hasTimeStampMs">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rrc/ontologies/2017/7/semtweet#Tweet"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
     </owl:DatatypeProperty>
     
 
