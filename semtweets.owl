@@ -298,8 +298,8 @@
     <!-- http://www.semanticweb.org/rrc/ontologies/2017/7/semtweet#Coord1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rrc/ontologies/2017/7/semtweet#Coord1">
-        <semtweet:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.05701649</semtweet:hasLatitude>
-        <semtweet:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-75.14310264</semtweet:hasLongitude>
+        <semtweet:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.05701649</semtweet:hasLatitude>
+        <semtweet:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-75.14310264</semtweet:hasLongitude>
     </owl:NamedIndividual>
     
 
